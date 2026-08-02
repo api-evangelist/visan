@@ -1,4 +1,16 @@
 aid: visan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visan.png
 name: Visan
 description: Visan is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -20,3 +32,17 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Enrichment probes completed (curl domain sweep, WebFetch on the a16z portfolio
+    and search engines, path/content-type probes). No identifiable a16z-backed
+    "Visan" with an API surface could be confirmed: a16z's public portfolio does
+    not list any Visan; visan.co is a parked-domain lander; the only real company
+    match, VISAN Ventures (visanventures.com, a decision-intelligence
+    engineering-services firm), is a SPA with soft-404s and publishes no public
+    API, OpenAPI, well-known, SDKs, or docs portal, and shows no a16z backing.
+    No artifacts written to avoid fabricating an identity or API surface.
